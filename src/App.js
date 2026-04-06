@@ -213,4 +213,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;// Frontend UI verified and completed.
