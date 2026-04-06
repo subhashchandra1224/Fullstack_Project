@@ -374,4 +374,6 @@ function AdminAddJob({ job, setJob, magicText, setMagicText, magicLink, setMagic
   );
 }
 
-export default AdminAddJob;
+export default AdminAddJob; 
+
+i have changed
