@@ -84,7 +84,7 @@ const extractLocation = (text) => {
 app.post("/api/sync-jobs", async (req, res) => {
   try {
     const externalJobs = [
-      { title: "Software Engineer Intern", company: "Google Cloud", location: "Bengaluru", salary: "₹1,20,000/mo", description: "Scalable cloud solutions using Go, Python, and GCP.", link: "https://www.google.com/about/careers", source: "LinkedIn", job_type: "Internship" },
+      { title: "Software Engineer Intern", company: "Google Cloud", location: "Bengaluru", salary: "₹5000000/mo", description: "Scalable cloud solutions using Go, Python, and GCP.", link: "https://www.google.com/about/careers", source: "LinkedIn", job_type: "Internship" },
       { title: "Frontend Developer", company: "Flipkart", location: "Remote", salary: "₹18L - ₹25L", description: "React, Redux, Tailwind.", link: "https://www.flipkart.com/careers", source: "LinkedIn", job_type: "Full-time" }
     ];
     const analyzedJobs = externalJobs.map(job => ({ ...job, skills_required: extractSkills(job.description) }));
